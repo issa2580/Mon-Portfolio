@@ -1,0 +1,415 @@
+*, ::before, ::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #333;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    position: relative;
+    overflow: hidden;
+}
+.container-skills{
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+}
+.section-skills{
+    color: white;
+    font-size: 50px;
+    text-align: center; 
+    margin-left: 10%;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+h1{
+    text-transform: uppercase;
+    font-size: 50px;
+    color: #f1f1f1;
+    font-family: Abril fatface, sans-serif;
+}
+.container-btn{
+    position: absolute;
+    bottom: 46%;
+    left: 0;
+
+}
+.b2{
+    position: relative;
+    left: 168vh;
+}
+.btn-menu{
+    border: 2px solid #f1f1f1;
+    outline: none;
+    background: transparent;
+    font-size: 30px;
+    padding: 10px;
+    width: 150px;
+    color: #f1f1f1;
+    cursor: pointer;
+}
+
+.btn-menu:hover{
+    transition: all 0.3s ease-in-out;
+    background: rgb(246, 23, 160);
+    color: #333;
+}
+.line{
+    position: absolute;
+    top: 6%;
+    left: 5%;
+}
+.line1{
+    width: 250px;
+    height: 3px;
+    background: rgb(246, 23, 160);
+    border-radius: 5px;
+    position: relative;
+    top: 20px;
+}
+.line2{
+    width: 170px;
+    height: 3px;
+    background: rgb(246, 23, 160);
+    border-radius: 5px;
+    position: relative;
+    top: 40px;
+}
+.line3{
+    width: 100px;
+    height: 3px;
+    background: rgb(246, 23, 160);
+    border-radius: 5px;
+    position: relative;
+    top: 60px;
+}
+.line4{
+    width: 250px;
+    height: 3px;
+    background: rgb(246, 23, 160);
+    border-radius: 5px;
+    position: relative;
+    top: 94vh;
+}
+.line5{
+    width: 170px;
+    height: 3px;
+    background: rgb(246, 23, 160);
+    border-radius: 5px;
+    position: relative;
+    top: 89vh;
+}
+.line6{
+    width: 100px;
+    height: 3px;
+    background: rgb(246, 23, 160);
+    border-radius: 5px;
+    position: relative;
+    top: 84vh;
+}
+.line7{
+    width: 250px;
+    height: 3px;
+    background: rgb(246, 23, 160);
+    border-radius: 5px;
+    position: relative;
+    float: right;
+    top: 5px;
+}
+.line8{
+    width: 170px;
+    height: 3px;
+    background: rgb(246, 23, 160);
+    border-radius: 5px;
+    position: absolute;
+    right: 0% ;
+    top: 47px;
+}
+.line9{
+    width: 100px;
+    height: 3px;
+    background: rgb(246, 23, 160);
+    border-radius: 5px;
+    position: absolute;
+    right: 0;
+    top: 70px;
+}
+.line10{
+    width: 100px;
+    height: 3px;
+    background: rgb(246, 23, 160);
+    border-radius: 5px;
+    position: absolute;
+    right: 0;
+    top: 85%;
+}
+.line11{
+    width: 170px;
+    height: 3px;
+    background: rgb(246, 23, 160);
+    border-radius: 5px;
+    position: absolute;
+    right: 0% ;
+    top: 90%;
+}
+.line12{
+    width: 250px;
+    height: 3px;
+    background: rgb(246, 23, 160);
+    border-radius: 5px;
+    position: absolute;
+    right: 0;
+    top: 95%;
+}
+
+  .skills-body{
+    color: rgb(246, 23, 160);
+    font-size: 30px;
+    font-style: normal;
+    font-weight: lighter;
+    padding: 10px;
+  }
+  .flex-item-content{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    margin-left: 10%;
+  }
+  .item-skills{
+    list-style-type: none;
+  }
+  .sk-items{
+      margin-top: 45px;
+      margin-left: 10%;
+      
+      text-align: center;
+  }
+
+.skills-header{
+    display: inline-block;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    justify-items: center;
+    margin-left: -2%;
+    margin-top: 5%;
+}
+ 
+  
+  .cl-lang,.cl-list-lang { margin:0 ; padding:0 }
+  div#conteneur {      
+    width:50%; 
+    height:100px;
+    overflow:hidden;
+    margin: 2em auto;
+    border: 1px solid black;
+    margin-top: 0;
+    box-shadow: 0px 0px 25px 10px gray;
+  }
+  .cl-lang{
+    display: table;
+    width:70%; 
+    
+    animation: slide-image 60s ease 0s infinite alternate;
+  }
+  .cl-lang .cl-list-lang{
+    
+    display: table-cell;
+    width:90%;
+    height:100px;
+    text-align:center;
+    vertical-align:middle;
+  }
+  @keyframes slide-image{
+    from,20%  {margin-left:   0px;}
+    20%,40%   {margin-left:-220px;}
+    40%,60%   {margin-left:-440px;}
+    60%,80%   {margin-left:-660px;}
+    80%,to    {margin-left:-880px;}
+  }
+
+
+  @media only screen and (max-width: 768px){
+    
+    .container-skills{
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        height: 100vh;
+    }
+    .line1{
+        width: 100px;
+        height: 3px;
+        background: rgb(246, 23, 160);
+        border-radius: 5px;
+        position: relative;
+        top: 20px;
+    }
+    .line2{
+        width: 70px;
+        height: 3px;
+        background: rgb(246, 23, 160);
+        border-radius: 5px;
+        position: relative;
+        top: 40px;
+    }
+    .line3{
+        width: 50px;
+        height: 3px;
+        background: rgb(246, 23, 160);
+        border-radius: 5px;
+        position: relative;
+        top: 60px;
+    }
+    .line4{
+        width: 100px;
+        height: 3px;
+        background: rgb(246, 23, 160);
+        border-radius: 5px;
+        position: relative;
+        top: 94vh;
+    }
+    .line5{
+        width: 70px;
+        height: 3px;
+        background: rgb(246, 23, 160);
+        border-radius: 5px;
+        position: relative;
+        top: 89vh;
+    }
+    .line6{
+        width: 50px;
+        height: 3px;
+        background: rgb(246, 23, 160);
+        border-radius: 5px;
+        position: relative;
+        top: 84vh;
+    }
+    .line7{
+        width: 100px;
+        height: 3px;
+        background: rgb(246, 23, 160);
+        border-radius: 5px;
+        position: relative;
+        float: right;
+        top: 5px;
+    }
+    .line8{
+        width: 70px;
+        height: 3px;
+        background: rgb(246, 23, 160);
+        border-radius: 5px;
+        position: absolute;
+        right: 0% ;
+        top: 47px;
+    }
+    .line9{
+        width: 50px;
+        height: 3px;
+        background: rgb(246, 23, 160);
+        border-radius: 5px;
+        position: absolute;
+        right: 0;
+        top: 70px;
+    }
+    .line10{
+        width: 50px;
+        height: 3px;
+        background: rgb(246, 23, 160);
+        border-radius: 5px;
+        position: absolute;
+        right: 0;
+        top: 83%;
+    }
+    .line11{
+        width: 70px;
+        height: 3px;
+        background: rgb(246, 23, 160);
+        border-radius: 5px;
+        position: absolute;
+        right: 0% ;
+        top: 88%;
+    }
+    .line12{
+        width: 100px;
+        height: 3px;
+        background: rgb(246, 23, 160);
+        border-radius: 5px;
+        position: absolute;
+        right: 0;
+        top: 93%;
+    }
+    .skills-body{
+        color: rgb(246, 23, 160);
+        font-size: 10px;
+        font-style: normal;
+        font-weight: lighter;
+      }
+      .flex-item-content{
+        color: white;
+        font-size: 20px;
+        text-align: center;
+        
+      }
+      .sk-items{
+        margin-top: 10px;
+        margin-left: 5%;
+    }
+    .cl-lang,.cl-list-lang { margin:0 ; padding:0 }
+    div#conteneur {      
+      width:70%; 
+      height:100px;
+      overflow:hidden;
+      margin: 2em auto;
+      border: 1px solid black;
+      margin-top: 0;
+      box-shadow: 0px 0px 25px 10px gray;
+    }
+    .cl-lang{
+      display: table;
+      width:70%; 
+      
+      animation: slide-image 10s ease 0s infinite alternate;
+    }
+    .cl-lang .cl-list-lang{
+      
+      display: table-cell;
+      width:90%;
+      height:100px;
+      text-align:center;
+      vertical-align:middle;
+    }
+    @keyframes slide-image{
+      from,20%  {margin-left:   0px;}
+      20%,40%   {margin-left:-220px;}
+      40%,60%   {margin-left:-440px;}
+      60%,80%   {margin-left:-660px;}
+      80%,to    {margin-left:-880px;}
+    }
+
+    .container-btn{
+        position: absolute;
+        bottom: 46%;
+        left: 10%;
+    
+    }
+    .b2{
+        position: relative;
+        left: 30vh;
+    }
+    .btn-menu{
+        border: 2px solid #f1f1f1;
+        outline: none;
+        background: transparent;
+        font-size: 30px;
+        padding: 10px;
+        width: 105px;
+        color: #f1f1f1;
+        cursor: pointer;
+    }
+
+    }

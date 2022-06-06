@@ -1,0 +1,335 @@
+*, ::before, ::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #333;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    position: relative;
+    overflow: hidden;
+}
+.container-profil{
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.section-profil{
+    height: 100vh;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+h1{
+    text-transform: uppercase;
+    font-size: 50px;
+    color: #f1f1f1;
+    font-family: Abril fatface, sans-serif;
+}
+h2{
+    text-transform: uppercase;
+    font-size: 50px;
+    color: #f1f1f1;
+    font-family: Abril fatface, sans-serif;
+}
+.container-btn{
+    position: relative;
+    top: -5%;
+    margin-left: 25%;
+}
+.b2{
+    position: relative;
+    float: right;
+    margin-right: 30%;
+}
+.btn-menu{
+    border: 2px solid #f1f1f1;
+    outline: none;
+    background: transparent;
+    font-size: 30px;
+    padding: 10px;
+    width: 100px;
+    color: #f1f1f1;
+    cursor: pointer;
+}
+.btn-menu :nth-child(1){
+    margin-right: 30px;
+}
+.btn-menu:hover{
+    transition: all 0.3s ease-in-out;
+    background: rgb(246, 23, 160);
+    color: #333;
+}
+.line{
+    position: absolute;
+    top: 6%;
+    left: 5%;
+}
+.line1{
+    width: 250px;
+    height: 3px;
+    background: rgb(246, 23, 160);
+    border-radius: 5px;
+    position: relative;
+    top: 20px;
+}
+.line2{
+    width: 170px;
+    height: 3px;
+    background: rgb(246, 23, 160);
+    border-radius: 5px;
+    position: relative;
+    top: 40px;
+}
+.line3{
+    width: 100px;
+    height: 3px;
+    background: rgb(246, 23, 160);
+    border-radius: 5px;
+    position: relative;
+    top: 60px;
+}
+.line4{
+    width: 250px;
+    height: 3px;
+    background: rgb(246, 23, 160);
+    border-radius: 5px;
+    position: relative;
+    top: 94vh;
+}
+.line5{
+    width: 170px;
+    height: 3px;
+    background: rgb(246, 23, 160);
+    border-radius: 5px;
+    position: relative;
+    top: 89vh;
+}
+.line6{
+    width: 100px;
+    height: 3px;
+    background: rgb(246, 23, 160);
+    border-radius: 5px;
+    position: relative;
+    top: 84vh;
+}
+.line7{
+    width: 250px;
+    height: 3px;
+    background: rgb(246, 23, 160);
+    border-radius: 5px;
+    position: relative;
+    float: right;
+    top: 5px;
+}
+.line8{
+    width: 170px;
+    height: 3px;
+    background: rgb(246, 23, 160);
+    border-radius: 5px;
+    position: absolute;
+    right: 0% ;
+    top: 47px;
+}
+.line9{
+    width: 100px;
+    height: 3px;
+    background: rgb(246, 23, 160);
+    border-radius: 5px;
+    position: absolute;
+    right: 0;
+    top: 70px;
+}
+.line10{
+    width: 100px;
+    height: 3px;
+    background: rgb(246, 23, 160);
+    border-radius: 5px;
+    position: absolute;
+    right: 0;
+    top: 83%;
+}
+.line11{
+    width: 170px;
+    height: 3px;
+    background: rgb(246, 23, 160);
+    border-radius: 5px;
+    position: absolute;
+    right: 0% ;
+    top: 88%;
+}
+.line12{
+    width: 250px;
+    height: 3px;
+    background: rgb(246, 23, 160);
+    border-radius: 5px;
+    position: absolute;
+    right: 0;
+    top: 93%;
+}
+
+.title-profil{
+    color: white;
+    text-align: center;
+    margin-left: 15%;
+}
+
+.sect1{
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 30px;  
+}
+  .sect2{
+    color: white;
+    font-style: normal;
+    font-weight: lighter;
+    text-align: center;
+    padding: 15px;
+    font-size: 30px;  
+  }
+  .sect3{
+    color: white;
+    font-style: normal;
+    font-weight: lighter;
+    text-align: center;
+    padding: 15px;
+    font-size: 30px;  
+  }
+  .sect4{
+    color: white;
+    font-style: normal;
+    font-weight: lighter;
+   text-align: center;
+   padding: 15px;
+    font-size: 30px;  
+  }
+  .road{
+    color: rgb(246, 23, 160);
+  }
+  .chemin{
+    color: white;
+  }
+
+
+  @media only screen and (max-width: 768px){
+    
+    h1{
+        text-transform: uppercase;
+        font-size: 35px;
+        color: #f1f1f1;
+        font-family: Abril fatface, sans-serif;
+    }
+    h2{
+        text-transform: uppercase;
+        font-size: 20px;
+        color: #f1f1f1;
+        font-family: Abril fatface, sans-serif;
+    }
+    .line1{
+        width: 100px;
+        height: 3px;
+        background: rgb(246, 23, 160);
+        border-radius: 5px;
+        position: relative;
+        top: 20px;
+    }
+    .line2{
+        width: 70px;
+        height: 3px;
+        background: rgb(246, 23, 160);
+        border-radius: 5px;
+        position: relative;
+        top: 40px;
+    }
+    .line3{
+        width: 50px;
+        height: 3px;
+        background: rgb(246, 23, 160);
+        border-radius: 5px;
+        position: relative;
+        top: 60px;
+    }
+    .line4{
+        width: 100px;
+        height: 3px;
+        background: rgb(246, 23, 160);
+        border-radius: 5px;
+        position: relative;
+        top: 94vh;
+    }
+    .line5{
+        width: 70px;
+        height: 3px;
+        background: rgb(246, 23, 160);
+        border-radius: 5px;
+        position: relative;
+        top: 89vh;
+    }
+    .line6{
+        width: 50px;
+        height: 3px;
+        background: rgb(246, 23, 160);
+        border-radius: 5px;
+        position: relative;
+        top: 84vh;
+    }
+    .line7{
+        width: 100px;
+        height: 3px;
+        background: rgb(246, 23, 160);
+        border-radius: 5px;
+        position: relative;
+        float: right;
+        top: 5px;
+    }
+    .line8{
+        width: 70px;
+        height: 3px;
+        background: rgb(246, 23, 160);
+        border-radius: 5px;
+        position: absolute;
+        right: 0% ;
+        top: 47px;
+    }
+    .line9{
+        width: 50px;
+        height: 3px;
+        background: rgb(246, 23, 160);
+        border-radius: 5px;
+        position: absolute;
+        right: 0;
+        top: 70px;
+    }
+    .line10{
+        width: 50px;
+        height: 3px;
+        background: rgb(246, 23, 160);
+        border-radius: 5px;
+        position: absolute;
+        right: 0;
+        top: 83%;
+    }
+    .line11{
+        width: 70px;
+        height: 3px;
+        background: rgb(246, 23, 160);
+        border-radius: 5px;
+        position: absolute;
+        right: 0% ;
+        top: 88%;
+    }
+    .line12{
+        width: 100px;
+        height: 3px;
+        background: rgb(246, 23, 160);
+        border-radius: 5px;
+        position: absolute;
+        right: 0;
+        top: 93%;
+    }
+}

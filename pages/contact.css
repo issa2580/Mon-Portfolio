@@ -1,0 +1,424 @@
+*, ::before, ::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #333;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    position: relative;
+    overflow: hidden;
+}
+.container-contact{
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.section-contact{
+    height: 100vh;
+}
+h1{
+    text-transform: uppercase;
+    font-size: 50px;
+    color: #f1f1f1;
+    font-family: Abril fatface, sans-serif;
+}
+a{
+  color: white;
+  text-decoration: none;
+}
+.container-btn{
+    position: relative;
+    margin-top: -7%;
+    left: 45%;
+}
+.btn-menu{
+    border: 2px solid #f1f1f1;
+    outline: none;
+    background: transparent;
+    font-size: 30px;
+    padding: 10px;
+    width: 100px;
+    color: #f1f1f1;
+    cursor: pointer;
+}
+.btn-menu :nth-child(1){
+    margin-right: 30px;
+}
+.btn-menu:hover{
+    transition: all 0.3s ease-in-out;
+    background: rgb(246, 23, 160);
+    color: #333;
+}
+.line{
+    position: absolute;
+    top: 6%;
+    left: 5%;
+}
+.line1{
+    width: 250px;
+    height: 3px;
+    background: rgb(246, 23, 160);
+    border-radius: 5px;
+    position: relative;
+    top: 20px;
+}
+.line2{
+    width: 170px;
+    height: 3px;
+    background: rgb(246, 23, 160);
+    border-radius: 5px;
+    position: relative;
+    top: 40px;
+}
+.line3{
+    width: 100px;
+    height: 3px;
+    background: rgb(246, 23, 160);
+    border-radius: 5px;
+    position: relative;
+    top: 60px;
+}
+.line4{
+    width: 250px;
+    height: 3px;
+    background: rgb(246, 23, 160);
+    border-radius: 5px;
+    position: relative;
+    top: 94vh;
+}
+.line5{
+    width: 170px;
+    height: 3px;
+    background: rgb(246, 23, 160);
+    border-radius: 5px;
+    position: relative;
+    top: 89vh;
+}
+.line6{
+    width: 100px;
+    height: 3px;
+    background: rgb(246, 23, 160);
+    border-radius: 5px;
+    position: relative;
+    top: 84vh;
+}
+.line7{
+    width: 250px;
+    height: 3px;
+    background: rgb(246, 23, 160);
+    border-radius: 5px;
+    position: relative;
+    float: right;
+    top: 5px;
+}
+.line8{
+    width: 170px;
+    height: 3px;
+    background: rgb(246, 23, 160);
+    border-radius: 5px;
+    position: absolute;
+    right: 0% ;
+    top: 47px;
+}
+.line9{
+    width: 100px;
+    height: 3px;
+    background: rgb(246, 23, 160);
+    border-radius: 5px;
+    position: absolute;
+    right: 0;
+    top: 70px;
+}
+.line10{
+    width: 100px;
+    height: 3px;
+    background: rgb(246, 23, 160);
+    border-radius: 5px;
+    position: absolute;
+    right: 0;
+    top: 85vh;
+}
+.line11{
+    width: 170px;
+    height: 3px;
+    background: rgb(246, 23, 160);
+    border-radius: 5px;
+    position: absolute;
+    right: 0% ;
+    top: 90vh;
+}
+.line12{
+    width: 250px;
+    height: 3px;
+    background: rgb(246, 23, 160);
+    border-radius: 5px;
+    position: absolute;
+    right: 0;
+    top: 95vh;
+}
+
+.title-contact{
+    color: white;
+    text-align: center;
+    margin-left: -10%;
+    margin-top: -10%;
+}
+.content-contact{
+    margin-left: 10%;
+    margin-top: 10%;
+    padding: 15px;
+    justify-content: space-between;
+}
+ 
+  .section-contact{
+    margin-top: 0;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+  }
+  #desc-contact{
+    color: white;
+    margin-left: 15%;
+  }
+  .p-item-contact{
+    color: white;
+    font-size: 23px;
+    text-align: justify;
+    font-style: italic;
+  }
+  .img-icon{
+    width: 10%;
+  }
+  .icon-pouce{
+    width: 5%;
+  }
+  .pouce{
+    font-size: 50px;
+    color: white;
+    margin-top: 5%;
+    margin-left: 7%;
+  }
+  #about-form{
+    position: relative;
+    margin-top: 13%;
+    left: 55%;
+  }
+  .icon-tell{
+    width: 10%;
+    float: right;
+    margin-right: 30%;
+    margin-top: -42%;
+  }
+  .form-contact{
+    color: white;
+    float: right;
+    margin-right: 5%;
+    margin-top: -33%;
+  }
+  .title-tell{
+    color: white;
+    font-style: normal;
+    font-size: 40px;
+    float: right;
+    margin-top: -38%;
+    margin-right: 32%;
+  }
+  input{
+    width: 98%;
+    padding: 15px;
+    border: solid 5px white;
+    border-radius: 5px;
+  }
+  label{
+    color: white;
+    font-size: 25px;
+    font-style: italic;
+  }
+  textarea{
+   border: solid 5px white;
+   border-radius: 5px;
+    width: 102%;
+    height: 25vh;
+  }
+  .media{
+    transform: translate(-50%, -50%);
+    margin-top : 5%;
+    margin-left : 30%;
+    display:flex;
+  }
+  .media-socio{
+    list-style-type: none;
+  }
+  #item-media{
+    position: relative;
+    width:60px;
+    height:60px;
+    display:block;
+    text-align:center;
+    margin:0 10px;
+    border-radius: 50%;
+    padding: 19px;
+    box-sizing: border-box;
+    text-decoration:none;
+    box-shadow: 0 10px 15px rgb(246, 23, 160);
+    background: linear-gradient(0deg, rgba(0,0,0,0.4), rgba(0,0,0,0.4));
+    transition: .5s;
+  }
+
+
+
+  @media only screen and (max-width: 768px){
+    
+
+    .line1{
+      width: 100px;
+      height: 3px;
+      background: rgb(246, 23, 160);
+      border-radius: 5px;
+      position: relative;
+      top: 20px;
+  }
+  .line2{
+      width: 70px;
+      height: 3px;
+      background: rgb(246, 23, 160);
+      border-radius: 5px;
+      position: relative;
+      top: 40px;
+  }
+  .line3{
+      width: 50px;
+      height: 3px;
+      background: rgb(246, 23, 160);
+      border-radius: 5px;
+      position: relative;
+      top: 60px;
+  }
+  .line4{
+      width: 100px;
+      height: 3px;
+      background: rgb(246, 23, 160);
+      border-radius: 5px;
+      position: relative;
+      top: 94vh;
+  }
+  .line5{
+      width: 70px;
+      height: 3px;
+      background: rgb(246, 23, 160);
+      border-radius: 5px;
+      position: relative;
+      top: 89vh;
+  }
+  .line6{
+      width: 50px;
+      height: 3px;
+      background: rgb(246, 23, 160);
+      border-radius: 5px;
+      position: relative;
+      top: 84vh;
+  }
+  .line7{
+      width: 100px;
+      height: 3px;
+      background: rgb(246, 23, 160);
+      border-radius: 5px;
+      position: relative;
+      float: right;
+      top: 5px;
+  }
+  .line8{
+      width: 70px;
+      height: 3px;
+      background: rgb(246, 23, 160);
+      border-radius: 5px;
+      position: absolute;
+      right: 0% ;
+      top: 47px;
+  }
+  .line9{
+      width: 50px;
+      height: 3px;
+      background: rgb(246, 23, 160);
+      border-radius: 5px;
+      position: absolute;
+      right: 0;
+      top: 70px;
+  }
+  .line10{
+      width: 50px;
+      height: 3px;
+      background: rgb(246, 23, 160);
+      border-radius: 5px;
+      position: absolute;
+      right: 0;
+      top: 88vh;
+  }
+  .line11{
+      width: 70px;
+      height: 3px;
+      background: rgb(246, 23, 160);
+      border-radius: 5px;
+      position: absolute;
+      right: 0% ;
+      top: 93vh;
+  }
+  .line12{
+      width: 100px;
+      height: 3px;
+      background: rgb(246, 23, 160);
+      border-radius: 5px;
+      position: absolute;
+      right: 0;
+      top: 98vh;
+  }
+
+    .content-contact{
+      margin-left: 20%;
+      margin-top: 0;
+  }
+  .title-tell{
+    color: white;
+    font-style: normal;
+    font-size: 20px;
+    float: right;
+    margin-top: -25%;
+    margin-right: 35%;
+  }
+  .media{
+    transform: translate(-50%, -50%);
+    margin-top : 0;
+    margin-left : 30%;
+    display:flex;
+  }
+  #item-media{
+    position: relative;
+    width:40px;
+    height:40px;
+    display:block;
+    text-align:center;
+    margin:0 5px;
+    border-radius: 50%;
+    padding: 15px;
+    box-sizing: border-box;
+    text-decoration:none;
+    box-shadow: 0 10px 15px rgb(246, 23, 160);
+    background: linear-gradient(0deg, rgba(0,0,0,0.4), rgba(0,0,0,0.4));
+    transition: .5s;
+  }
+  .pouce{
+    font-size: 50px;
+    color: white;
+    margin-top: 0;
+    margin-left: 7%;
+  }
+  #about-form{
+    position: relative;
+    margin-top: 23%;
+    left: 55%;
+  }
+    }
+
+
